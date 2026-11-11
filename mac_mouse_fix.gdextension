@@ -1,0 +1,7 @@
+[configuration]
+entry_symbol = "mac_mouse_fix_library_init"
+compatibility_minimum = "4.2"
+
+[libraries]
+macos.debug = "res://addons/mac_mouse_fix/bin/macos/libmacmousefix.macos.template_debug.dylib"
+macos.release = "res://addons/mac_mouse_fix/bin/macos/libmacmousefix.macos.template_release.dylib"
